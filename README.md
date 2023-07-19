@@ -93,12 +93,10 @@ gcloud projects add-iam-policy-binding PROJECT_ID \
 
 gcloud projects add-iam-policy-binding PROJECT_ID \
     --member="serviceAccount:vertex-ai-consumer@PROJECT_ID.iam.gserviceaccount.com" \
-    --role="roles/vertexai.admin"
+    --role="roles/aiplatform.admin"
 ```
 
-
-## 🚀 About Me
-Eden Marco, Customer Engineer @ Google Cloud, Tel Aviv🇮🇱
+Forked from repo by Eden Marco, Customer Engineer @ Google Cloud, Tel Aviv🇮🇱
 
 [![linkedin](https://img.shields.io/badge/linkedin-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/eden-marco/) 
 
